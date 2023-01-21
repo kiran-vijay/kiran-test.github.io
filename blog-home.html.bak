@@ -104,7 +104,7 @@
     <div class="main-wrapper">
 	    <section class="cta-section theme-bg-light py-5">
 		    <div class="container text-center">
-			    <h2 class="heading">A Blog About Software Development And Life</h2>
+			    <h2 class="heading">A Blog About Data</h2>
 			    <div class="intro">Welcome to my blog. Subscribe and get my latest blog post in your inbox.</div>
 			    <div class="single-form-max-width pt-3 mx-auto">
 				    <form class="signup-form row g-2 g-lg-2 align-items-center">
@@ -151,7 +151,7 @@
     
     </div><!--//main-wrapper-->
     
-    <!-- <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->   -->
+    <!-- <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->  
 	<!-- <div id="config-panel" class="config-panel config-panel-hide d-none d-lg-block"> -->
 		<!-- <div class="panel-inner"> -->
 			<!-- <a id="config-trigger" class="config-trigger text-center" href="#"><i class="fas fa-cog mx-auto" data-fa-transform="down-6" ></i></a> -->
@@ -169,8 +169,8 @@
 				<!-- <li class="theme-10  list-inline-item"><a data-style="assets/css/theme-10.css" href="#"></a></li> -->
 			<!-- </ul> -->
 			<!-- <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a> -->
-		<!-- </div><!--//panel-inner--> -->
-	<!-- </div><!--//configure-panel--> -->
+		<!-- </div><!--//panel-inner--> 
+	<!-- </div><!--//configure-panel--> 
 	<footer class="footer text-center py-4">
 			<small class="copyright">Copyright &copy; Kiran</a></small>
 		</footer>
