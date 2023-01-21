@@ -54,9 +54,6 @@
 							<a class="nav-link" href="index.html"><i class="fas fa-user fa-fw me-2"></i>About Me</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="Certificates.html"><i class="fas fa-shield-alt fa-fw me-2"></i>Certificates</a>
-						</li>
-						<li class="nav-item">
 							<a class="nav-link" href="portfolio.html"><i class="fas fa-laptop-code fa-fw me-2"></i>Portfolio</a>
 						</li>
 						<li class="nav-item">
