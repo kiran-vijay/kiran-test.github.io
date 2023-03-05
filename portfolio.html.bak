@@ -54,6 +54,9 @@
 							<a class="nav-link" href="index.html"><i class="fas fa-user fa-fw me-2"></i>About Me</a>
 						</li>
 						<li class="nav-item">
+							<a class="nav-link" href="Certificates.html"><i class="fas fa-shield-alt fa-fw me-2"></i>Certificates</a>
+						</li>
+						<li class="nav-item">
 							<a class="nav-link active" href="portfolio.html"><i class="fas fa-laptop-code fa-fw me-2"></i>Portfolio<span class="sr-only">(current)</span></a>
 						</li>
 	
@@ -156,6 +159,79 @@
 								<a class="link-mask-link" href="Projects/city-by-temperature.html"></a>
 								<div class="link-mask-text">
 									<a class="btn btn-secondary" href="Projects/city-by-temperature.html">
+										<i class="fas fa-eye me-2"></i>View project details
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+					<div class="isotope-item col-md-6 mb-5 Design PowerBI">
+						<div class="card project-card">
+							<div class="row">
+								<div class="col-12 col-xl-5 card-img-holder">
+									<img src="assets/images/project/Olympics.png" class="card-img" alt="image">
+								</div>
+								<div class="col-12 col-xl-7">
+									<div class="card-body">
+										<h5 class="card-title"><a href="Projects/olympics-dashboard.html" class="theme-link">Olympics Analytics</a></h5>
+										<p class="card-text">Olympics Analytics Power BI report</p>
+										<p class="card-text"><small class="text-muted">Tool: Power BI</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="Projects/olympics-dashboard.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="Projects/olympics-dashboard.html">
+										<i class="fas fa-eye me-2"></i>View project details
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+					<div class="isotope-item col-md-6 mb-5 PowerBI">
+						<div class="card project-card">
+							<div class="row">
+								<div class="col-12 col-xl-5 card-img-holder">
+									<img src="assets/images/project/sales_layout.png" class="card-img" alt="image">
+								</div>
+								<div class="col-12 col-xl-7">
+									<div class="card-body">
+										<h5 class="card-title"><a href="Projects/sales_analytics.html" class="theme-link">Olympics Analytics</a></h5>
+										<p class="card-text">Sales Analytics</p>
+										<p class="card-text"><small class="text-muted">Tool: Power BI</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="Projects/sales_analytics.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="Projects/sales_analytics.html">
+										<i class="fas fa-eye me-2"></i>View project details
+									</a>
+								</div>
+							</div><!--//link-mask-->
+						</div><!--//card-->
+					</div><!--//col-->
+					
+					<div class="isotope-item col-md-6 mb-5 PowerBI">
+						<div class="card project-card">
+							<div class="row">
+								<div class="col-12 col-xl-5 card-img-holder">
+									<img src="assets/images/project/Avengers.png" class="card-img" alt="image">
+								</div>
+								<div class="col-12 col-xl-7">
+									<div class="card-body">
+										<h5 class="card-title"><a href="Projects/Avengers.html" class="theme-link">Olympics Analytics</a></h5>
+										<p class="card-text">Avengers stats</p>
+										<p class="card-text"><small class="text-muted">Tool: Power BI</small></p>
+									</div>
+								</div>
+							</div>
+							<div class="link-mask">
+								<a class="link-mask-link" href="Projects/Avengers.html"></a>
+								<div class="link-mask-text">
+									<a class="btn btn-secondary" href="Projects/Avengers.html">
 										<i class="fas fa-eye me-2"></i>View project details
 									</a>
 								</div>

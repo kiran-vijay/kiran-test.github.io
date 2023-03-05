@@ -95,42 +95,50 @@
 		<div class="container">
   <main class="grid">
     <article>
-      <img src="assets/images/certificates/azure data analyst.png" alt="azure data analyst">
+      <center> <img src="assets/images/certificates/azure data analyst.png" alt="azure data analyst"></center> 
       <div class="text">
-        <h3>Azure Enterprise Data Analyst Associate</h3>
+        <center><h3>Azure Enterprise Data Analyst Associate</h3></center>
         <p>Earning Azure Enterprise Data Analyst Associate validates subject matter expertise in designing, creating, and deploying enterprise-scale data analytics solutions.</p>
         
       </div>
     </article>
     <article>
-      <img src="assets/images/certificates/MS data analyst.png" alt="MS data analyst">
+      <center> <img src="assets/images/certificates/MS data analyst.png" alt="MS data analyst"></center> 
       <div class="text">
-        <h3>Power BI Data Analyst Associate</h3>
+        <center><h3>Power BI Data Analyst Associate</h3></center>
         <p>Earning the Power BI Data Analyst Associate certification validates the skills and knowledge required to enable businesses to maximize the value of their data assets by using Microsoft Power BI.</p>
         
       </div>
     </article>
     <article>
-      <img src="assets/images/certificates/MS Power BI.png" alt="MS Power BI">
+      <center> <img src="assets/images/certificates/MS Power BI.png" alt="MS Power BI"></center> 
       <div class="text">
-        <h3>Analyzing and Visualizing Data with Power BI</h3>
+        <center><h3>Analyzing and Visualizing Data with Power BI</h3></center>
         <p>Analyzing and Visualizing Data with Power BI validates the skills and knowledge necessary to be proficient in connecting to data sources and performing data transformations, modeling and visualizing data by using Microsoft Power BI Desktop, and configuring dashboards by using the Power BI service.</p>
         
       </div>
     </article>
 	<article>
-      <img src="assets/images/certificates/Certification_Designer_Core.png" alt="Certification_Designer_Core">
+      <center> <img src="assets/images/certificates/Certification_Designer_Core.png" alt="Certification_Designer_Core"></center> 
       <div class="text">
-        <h3>Alteryx Designer Core Certification</h3>
+        <center><h3>Alteryx Designer Core Certification</h3></center>
         <p>Earners of this certification have a thorough understanding of the Alteryx Designer environment. They are able to use the core toolset to clean, prepare, blend, parse, transform, and analyze data</p>
         
       </div>
     </article>
 	<article>
-      <img src="assets/images/certificates/MS Azure.png" alt="MS Azure">
+      <center> <img src="assets/images/certificates/MS Azure.png" alt="MS Azure"></center> 
       <div class="text">
-        <h3>Dynamically Procrastinate</h3>
-        <p>Completely synergize resource taxing relationships via premier niche markets.</p>
+        <h3>Azure Fundamentals</h3>
+        <p>Earners of the Azure Fundamentals certification have demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.</p>
+        
+      </div>
+    </article>
+	<article>
+     <center> <img src="assets/images/certificates/Alteryx Foundation.png" alt="Alteryx Foundation"></center>
+      <div class="text">
+        <h3>Azure Fundamentals</h3>
+        <p>Earners of this micro-credential have an introductory understanding of machine learning concepts. They can identify when to use machine learning techniques, how to prepare data for modeling, and the basics of machine learning model evaluation and interpretation.</p>
         
       </div>
     </article>
