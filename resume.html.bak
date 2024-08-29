@@ -1,357 +1,261 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-	<title>My Portfolio - Kiran</title>
-	
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">  
-	<link rel="shortcut icon" href="favicon.ico"> 
-	
-	<!-- Google Fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-	
-	<!-- FontAwesome JS -->
+    <title>Resume - Kiran</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    
+    <!-- FontAwesome JS -->
     <script defer src="assets/fontawesome/js/all.js"></script>
     
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="assets/plugins/tiny-slider/tiny-slider.css">
 
-	<!-- Theme CSS -->  
-	<link id="theme-style" rel="stylesheet" href="assets/css/theme-7.css">
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme-7.css">
 
 </head> 
 
 <body>
-	
-	<header class="header text-center">	    
-		<div class="force-overflow">
-			<!-- <h1 class="blog-name pt-lg-4 mb-0"><a class="no-text-decoration" href="index.html">Kiran</a></h1> -->
-			
-			<nav class="navbar navbar-expand-lg navbar-dark" >
-				
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				
-				<div id="navigation" class="collapse navbar-collapse flex-column" >
-					<div class="profile-section pt-3 pt-lg-0">
-						<img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/my_pic.png" alt="image" >			
+    
+    <header class="header text-center">	    
+        <div class="force-overflow">
+            <nav class="navbar navbar-expand-lg navbar-dark" >
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div id="navigation" class="collapse navbar-collapse flex-column" >
+                    <div class="profile-section pt-3 pt-lg-0">
+                        <img class="profile-image mb-3 rounded-circle mx-auto" src="assets/images/my_pic.png" alt="image" >			
+                        
+                        <div class="bio mb-3">Hi, my name is Kiran. Welcome to my personal website!</div><!--//bio-->
+                        <ul class="social-list list-inline py-2 mx-auto">
+                            <li class="list-inline-item"><a href="https://twitter.com/Kiran_vijay"><i class="fab fa-twitter fa-fw"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/kiranvj/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+                            <li class="list-inline-item"><a href="https://github.com/kiran-vijay/"><i class="fab fa-github-alt fa-fw"></i></a></li>
+                        </ul><!--//social-list-->
+                        <hr> 
+                    </div><!--//profile-section-->
+                    
+                    <ul class="navbar-nav flex-column text-start">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="fas fa-user fa-fw me-2"></i>About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Certificates.html"><i class="fas fa-file-certificate fa-fw me-2"></i>Certificates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html"><i class="fas fa-laptop-code fa-fw me-2"></i>Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="resume.html"><i class="fas fa-file-alt fa-fw me-2"></i>Resume<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog-home.html"><i class="fas fa-blog fa-fw me-2"></i>Blog</a>
+                        </li>
+                    </ul>
+                    
+                    <div class="my-2">
+                        <a class="btn btn-primary" href="contact.html" target="_blank"><i class="fas fa-paper-plane me-2"></i>Contact me</a>
+                    </div>
+                    
+                    <div class="dark-mode-toggle text-center w-100">
+                        <hr class="mb-4">
+                        <h4 class="toggle-name mb-3 "><i class="fas fa-adjust me-1"></i>Dark Mode</h4>
+                        
+                        <input class="toggle" id="darkmode" type="checkbox">
+                        <label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
+                        
+                    </div><!--//dark-mode-toggle-->
+                </div>
+            </nav>
+        </div><!--//force-overflow-->
+    </header>
+    
+    <div class="main-wrapper">
+        <div class="container resume-container px-3 px-lg-5">
+            <article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+                
+                <div class="resume-header">
+                    <div class="row align-items-center">
+                        <div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
+                            <h2 class="resume-name mb-0 text-uppercase">Kiran Vijay</h2>
+                            <div class="resume-tagline mb-3 mb-md-0">Vice President</div>
+                        </div>
+                        <div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg me-2"></i><a class="resume-link" href="tel:+919003245868">+91 9003245868</a></li>
+                                <li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg me-2"></i><a class="resume-link" href="mailto:kiranvijay@outlook.in">kiranvijay@outlook.in</a></li>
+                                <li class="mb-2"><i class="fas fa-globe fa-fw fa-lg me-2"></i><a class="resume-link" href="https://kiran-vijay.github.io">kiran-vijay.github.io</a></li>
+                                <li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>Chennai, India</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="resume-intro py-3">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-3 col-xl-2 text-center">
+                            <img class="resume-profile-image mb-3 mb-md-0 me-md-5 ms-md-0 rounded mx-auto" src="assets/images/my_pic.png" alt="image">
+                        </div>
+                        <div class="col text-start">
+                            <p class="mb-0">Experienced data professional with a strong background in business intelligence, data analysis, and automation. Skilled in Power BI, Alteryx, Azure, and various Microsoft technologies. Proven track record of leading teams, developing efficient solutions, and driving data-driven decision-making across multiple functions.</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                
+                <div class="resume-body">
+                    <div class="row">
+                        <div class="resume-main col-12 col-lg-8 col-xl-9 pe-0 pe-lg-5">
+                            <section class="work-section py-3">
+                                <h3 class="text-uppercase resume-section-heading mb-4">Work Experiences</h3>
+                                
+                                <div class="item mb-3">
+                                    <div class="item-heading row align-items-center mb-2">
+                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Vice President</h4>
+                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">BNY Mellon | May 2024 - Present</div>
+                                    </div>
+                                    <div class="item-content">
+                                        <ul class="resume-list">
+                                            <li>Promoted to Vice President, expanding leadership role to cover both FMA and Controllers functions.</li>
+                                            <li>Leading an expanded team of 7 members to develop automation solutions across multiple functions.</li>
+                                            <li>Spearheaded automation efforts resulting in 1460 hours saved, significantly improving operational efficiency.</li>
+                                            <li>Architected end-to-end BI solutions using Power BI, establishing backend connections with Impala, Vertica, Oracle and leveraging SQL for efficient data processing and visualization.</li>
+                                            <li>Translated complex business requirements into technical specifications, developing executive dashboards that enhanced data-driven decision making.</li>
+                                            <li>Acted as mentor for Interns and Analyst hires from IIM grad schools, fostering talent development.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="item mb-3">
+                                    <div class="item-heading row align-items-center mb-2">
+                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Lead Data Analyst</h4>
+                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">BNY Mellon | Apr 2023 – Mar 2024</div>
+                                    </div>
+                                    <div class="item-content">
+                                        <ul class="resume-list">
+                                            <li>Led a 4-member team to develop automation solutions for various functions with FMA.</li>
+                                            <li>Played the role of a solution architect to design and deliver efficient automation solutions.</li>
+                                            <li>Acted as the key resource for the team, fostering effective problem-solving and knowledge-sharing while resolving complex use cases and data-related issues.</li>
+                                            <li>Developed and delivered key dashboard for the executives.</li>
+                                            <li>Consistently delivered top-quality data solutions leveraging advanced features of Power BI, Alteryx, UiPath and other data tools.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="item mb-3">
+                                    <div class="item-heading row align-items-center mb-2">
+                                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Senior Data Analyst</h4>
+                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">BNY Mellon | Jun 2021 - Mar 2023</div>
+                                    </div>
+                                    <div class="item-content">
+                                        <ul class="resume-list">
+                                            <li>Improved process efficiency by 60% by developing scalable solutions for Headcount movement and IB/NIB Deposit classification using Alteryx.</li>
+                                            <li>Recognized as the Subject Matter Expert for Deposits and Headcount solutions.</li>
+                                            <li>Reduced manual reporting by 50% by creating automated BI reports/dashboards for Client liquidity, CT CLR run-off, and Headcount using Power BI.</li>
+                                            <li>Delivered detailed, printable reports of large datasets to meet business requirements through the development of paginated reports.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </section>
+                            
+                            <section class="project-section py-3">
+                                <h3 class="text-uppercase resume-section-heading mb-4">Achievements</h3>
+                                <ul class="resume-list">
+                                    <li>BNY - FMA Brilliance Award – for UiPath based RPA solution.</li>
+                                    <li>Passion for Excellence – BNY Spotlight – for Oracle cloud migration project.</li>
+                                    <li>PHILIPS Employee Recognition Award – for delivering Inventory analytics dashboard which helped Operations team gain process efficiency.</li>
+                                    <li>Team up to win – PHILIPS Quarterly Recognition</li>
+                                    <li>Recognition for timely completion of Project tracking dashboard from markets SME</li>
+                                    <li>Won PEC award (Philips Excellence Competition) – Health System category – for Project Tracking dashboard.</li>
+                                    <li>GBS head recognition for delivering Inventory tracking solution for a critical COVID ventilators order management process.</li>
+                                </ul>
+                            </section>
+                        </div>
 						
-						<div class="bio mb-3">Hi, my name is Kiran. Welcome to my personal website!</div><!--//bio-->
-						<ul class="social-list list-inline py-2 mx-auto">
-							<li class="list-inline-item"><a href="https://twitter.com/Kiran_vijay"><i class="fab fa-twitter fa-fw"></i></a></li>
-							<li class="list-inline-item"><a href="https://www.linkedin.com/in/kiranvj/"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-							<li class="list-inline-item"><a href="https://github.com/kiran-vijay/"><i class="fab fa-github-alt fa-fw"></i></a></li>
-							<!-- <li class="list-inline-item"><a href="#"><i class="fab fa-stack-overflow fa-fw"></i></a></li> -->
-							<!-- <li class="list-inline-item"><a href="#"><i class="fab fa-codepen fa-fw"></i></a></li> -->
-						</ul><!--//social-list-->
-						<hr> 
-					</div><!--//profile-section-->
-					
-					<ul class="navbar-nav flex-column text-start">
-						<li class="nav-item">
-							<a class="nav-link" href="index.html"><i class="fas fa-user fa-fw me-2"></i>About Me</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="portfolio.html"><i class="fas fa-laptop-code fa-fw me-2"></i>Portfolio</a>
-						</li>
-						<!-- <li class="nav-item"> -->
-							<!-- <a class="nav-link" href="services.html"><i class="fas fa-briefcase fa-fw me-2"></i>Services &amp; Pricing</a> -->
-						<!-- </li> -->
-						<li class="nav-item">
-							<a class="nav-link active" href="resume.html"><i class="fas fa-file-alt fa-fw me-2"></i>Resume<span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="blog-home.html"><i class="fas fa-blog fa-fw me-2"></i>Blog</a>
-						</li>
-						<!-- <li class="nav-item"> -->
-							<!-- <a class="nav-link" href="contact.html"><i class="fas fa-envelope-open-text fa-fw me-2"></i>Contact</a> -->
-						<!-- </li> -->
-						<!-- <li class="nav-item dropdown"> -->
-							<!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
-								<!-- <i class="fas fa-cogs fa-fw me-2"></i>More Pages -->
-							<!-- </a> -->
-							<!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> -->
-								<!-- <li><a class="dropdown-item" href="project.html">Project Page</a></li> -->
-								<!-- <li><a class="dropdown-item" href="blog-home.html">Blog Home 1</a></li> -->
-								<!-- <li><a class="dropdown-item" href="blog-home-alt.html">Blog Home 2</a></li> -->
-								<!-- <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li> -->
-							<!-- </ul> -->
-						<!-- </li> -->
-					</ul>
-					
-					<div class="my-2">
-						<a class="btn btn-primary" href="contact.html" target="_blank"><i class="fas fa-paper-plane me-2"></i>Contact me</a>
-					</div>
-					
-	
-					<div class="dark-mode-toggle text-center w-100">
-						<hr class="mb-4">
-					    <h4 class="toggle-name mb-3 "><i class="fas fa-adjust me-1"></i>Dark Mode</h4>
-					    
-					    <input class="toggle" id="darkmode" type="checkbox">
-					    <label class="toggle-btn mx-auto mb-0" for="darkmode"></label>
-					    
-					</div><!--//dark-mode-toggle-->
-					
-				</div>
-			</nav>
-		</div><!--//force-overflow-->
-	</header>
-	
-	<div class="main-wrapper">
-		<div class="container resume-container px-3 px-lg-5">
-			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
-				
-				<div class="resume-header">
-					<div class="row align-items-center">
-						<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
-							<h2 class="resume-name mb-0 text-uppercase">Kiran Vijay<h2>
-							<div class="resume-tagline mb-3 mb-md-0">Senior Data Analyst</div>
-						</div><!--//resume-title-->
-						<div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
-							<ul class="list-unstyled mb-0">
-								<li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg me-2 "></i><a class="resume-link" href="tel:#">9003245868</a></li>
-								<li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg me-2"></i><a class="resume-link" href="mailto:#">kiranvijay@outlook.in</a></li>
-								<li class="mb-2"><i class="fas fa-globe fa-fw fa-lg me-2"></i><a class="resume-link" href="https://kiran-vijay.github.io/">kiran-vijay.github.io</a></li>
-								<li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>Chennai, India</li>
-							</ul>
-						</div><!--//resume-contact-->
-					</div><!--//row-->
-					
-				</div><!--//resume-header-->
-				<hr>
-				<div class="resume-intro py-3">
-					<div class="row align-items-center">
-						<div class="col-12 col-md-3 col-xl-2 text-center">
-						    <img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="assets/images/my_pic.png" alt="image">
-						</div>
-						
-						<div class="col text-start">
-							<p class="mb-0">Microsoft Certified Power BI Developer with hands on experience in PowerApps, Power 
-Automate. Worked on cloud environment to create scalable solutions. Worked on key 
-business reporting projects, gaining business and finance knowledge. Highly proficient in 
-handling complex BI/DW projects from stage of inception to implementation while 
-delivering high quality solutions in a timely manner</p>
-						</div><!--//col-->
-					</div>
-				</div><!--//resume-intro-->
-				<hr>
-				<div class="resume-body">
-					<div class="row">
-						<div class="resume-main col-12 col-lg-8 col-xl-9   pe-0   pe-lg-5">
-							<section class="work-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">Work Experiences</h3>
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Senior Data Analyst</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">BNY Mellon | 2021 - Present</div>
-										
-									</div>
-									<div class="item-content">
-											<li>Developed scalable Headcount movement, IB/NIB Deposit classification and other process automation solutions using Alteryx</li>
-											<li>SME for Deposits and Headcount solutions</li>
-											<li>Developed complex Alteryx solutions using Batch, Iterative macros to generate Peoplesoft updload templates</li>
-											<li>Developed BI reports/dashboards to automate multiple manual reports like Client liquidity, CT CLR run-off, Headcount using tools like Power BI, SSRS, Cubus EV connected to Vertica, Cloudera Impala, Oracle, TM1 sources</li>
-										</ul>
-									</div>
-								</div><!--//item-->
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Deputy Manager- Data Specialist</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Philips GBS | 2020 - 2021</div>
-										
-									</div>
-									<div class="item-content">
-										<ul class="resume-list">
-											<li> Responsible for creating one source of truth for Inventory</li>
-											<li>Working on Azure data lake and Azure Synapse as data source for the supply chain 
-reports</li>
-										</ul>
-									</div>
-								</div><!--//item-->
-								<div class="item mb-3">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Asst Manager-BI Developer</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Philips GBS | 2018 - 2020</div>
-										
-									</div>
-									<div class="item-content">
-										<ul class="resume-list">
-											<li>Headed Power BI report development for Inventory report from scratch</li>
-											<li>Created multiple business solution for markets using tools like PowerApps and Power Automate</li>
-											<li>Worked with subject matter experts to translate business requirements into highly scalable Power BI solutions</li>
-											<li>Responsible for Administrative activities on Power BI Premium Capacity</li>
-											<li>Created scalable and reliable backup solutions to maintain report quality </li>
-											<li>Worked on SSIS to create multiple ETL projects</li>
-										</ul>
-									</div>
-								</div><!--//item-->
-								<div class="item">
-									<div class="item-heading row align-items-center mb-2">
-										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Software Developer</h4>
-										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Encore IT  | 2015 - 2018</div>
-										
-									</div>
-									<div class="item-content">
-											<li>Worked on SSRS to Power BI migration project for a Healthcare provider</li>
-											<li>Gained experience on SSIS and Power BI </li>
-											<li>Worked on JavaScript analytics for customer engagement projects</li>
-									</div>
-								</div><!--//item-->
-								
-							</section><!--//work-section-->
+						                <div class="item mb-3">
+                    <div class="item-heading row align-items-center mb-2">
+                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Deputy Manager- Data Specialist</h4>
+                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Philips GBS | Nov 2020 - Jul 2021</div>
+                    </div>
+                    <div class="item-content">
+                        <ul class="resume-list">
+                            <li>Responsible for creating one source of truth for Inventory</li>
+                            <li>Working on Azure data lake and Azure Synapse as data source for the supply chain reports</li>
+                        </ul>
+                    </div>
+                </div>
 
-							
-							<section class="project-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">ACHIEVEMENTS</h3>
-									<li> Employee of the Quarter - Encore</li>
-									<li>PHILIPS Employee Recognition Award – 2019 for completing Inventory analytics before the planned go live date</li>
-									<li>Team up to win – PHILIPS Quarterly Recognition</li>
-									<li>Recognition for timely completion of Project tracking dashboard from markets SME</li>
-									<li>Two of my solutions/reports got nominated and one solution won Philips Excellence Competition</li>
-									<li>GBS head recognition for delivering Inventory tracking solution for COVID ventilator orders</li>
-							</section><!--//project-section-->	
-						</div><!--//resume-main-->
-						<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
-						<section class="education-section py-3">
-										<h3 class="text-uppercase resume-section-heading mb-4">Certificates</h3>
-										<img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="assets/images/certificates/azure data analyst.png" alt="image">
-										<img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="assets/images/certificates/MS data analyst.png" alt="image">
-										<img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="assets/images/certificates/MS Power BI.png" alt="image">
-										<img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="assets/images/certificates/Certification_Designer_Core.png" alt="image">
-										<img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="assets/images/certificates/MS Azure.png" alt="image">
-										
-										<!--<ul class="list-unstyled resume-awards-list">
-											<li class="mb-3">
-												<div class="font-weight-bold">Award Lorem Ipsum</div>
-												<div class="text-muted">Microsoft lorem ipsum (2019)</div>
-											</li>
-											<li>
-												<div class="font-weight-bold">Award Donec Sodales</div>
-												<div class="text-muted">Oracle Aenean (2017)</div>
-											</li>
-										</ul>-->
-									</section><!--//education-section-->
-							<section class="skills-section py-3">
-								<h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
-								<div class="item">
-									<h4 class="item-title">Technical</h4>
-									<ul class="list-unstyled resume-skills-list">
-										<li class="mb-2">Power BI</li>
-										<li class="mb-2">Power Apps<li>
-											<li class="mb-2">Alteryx</li>
-											<li class="mb-2">Power Automate</li>
-											<li class="mb-2">SQL</li>
-										</ul>
-									</div><!--//item-->
-									<div class="item">
-										<h4 class="item-title">Professional</h4>
-										<ul class="list-unstyled resume-skills-list">
-											<li class="mb-2">Effective communication</li>
-											<li class="mb-2">Team player<li>
-												<li class="mb-2">Strong problem solver</li>
-												<li>Good time management</li>
-											</ul>
-										</div><!--//item-->
-									</section><!--//skills-section-->
-									<section class="education-section py-3">
-										<h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
-										<ul class="list-unstyled resume-education-list">
-											<li class="mb-3">
-												<div class="mb-2" class="resume-degree font-weight-bold">B.Tech in Information Technology</div>
-												<div class="resume-degree-org text-muted">Jeppiaar Engineering College</div>
-												<div class="resume-degree-time text-muted">2011 - 2015</div>
-											</li>
-											<!-- <li> -->
-												<!-- <div class="resume-degree font-weight-bold">BSc Maths and Physics</div> -->
-												<!-- <div class="resume-degree-org text-muted">Imperial College London</div> -->
-												<!-- <div class="resume-degree-time text-muted">2007 - 2010</div> -->
-											<!-- </li> -->
-										</ul>
-									</section><!--//education-section-->
-									
-									<section class="skills-section py-3">
-										<h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
-										<ul class="list-unstyled resume-lang-list">
-											<li class="mb-2">English <span class="text-muted">(Professional)</span></li>
-											<li class="mb-2">Tamil <span class="text-muted">(Native)</span></li>
-											<li class="mb-2">Malayalam <span class="text-muted"></span></li>
-											
-										</ul>
-									</section><!--//certificates-section-->
-									<!--<section class="skills-section py-3">
-										<h3 class="text-uppercase resume-section-heading mb-4">Interests</h3>
-										<ul class="list-unstyled resume-interests-list mb-0">
-											<li class="mb-2">Climbing</li>
-											<li class="mb-2">Snowboarding</li>
-											<li class="mb-2">Photography</li>
-											<li>Travelling</li>
-										</ul>
-									</section><!--//certificates-section-->
-								</aside><!--//resume-aside-->
-							</div><!--//row-->
-						</div><!--//resume-body-->
-						<hr>
-						<div class="resume-footer text-center">
-							<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
-								<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="https://github.com/kiran-vijay/"><i class="fab fa-github-square fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">github.com/kiran-vijay</span></a></li>
-								<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="https://www.linkedin.com/in/kiranvj/"><i class="fab fa-linkedin fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">linkedin.com/in/kiranvj</span></a></li>
-								<li class="list-inline-item mb-lg-0 me-lg-3"><a class="resume-link" href="https://twitter.com/Kiran_vijay"><i class="fab fa-twitter-square fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">@Kiran_vijay</span></a></li>
-							</ul>
-						</div><!--//resume-footer-->
-					</article>
-					
-				</div><!--//container-->
-				
-				
-				
-			</div><!--//main-wrapper-->
-<!--<section class="cta-section theme-bg-light py-5">
-			<div class="container text-center single-col-max-width">
-				<h2 class="heading mb-3">Online Resume</h2>
-				<a class="btn btn-primary" href="https://themes.3rdwavemedia.com/resources/sketch-template/resume-sketch-sketch-resume-template-for-software-developers/" target="_blank"><i class="fas fa-file-pdf me-2"></i>Download PDF Version</a>
-				
-				
-			</div>
-		</section> -->
-			<!-- <!-- *****CONFIGURE STYLE (REMOVE ON YOUR PRODUCTION SITE)****** -->   -->
-			<!-- <div id="config-panel" class="config-panel config-panel-hide d-none d-lg-block"> -->
-				<!-- <div class="panel-inner"> -->
-					<!-- <a id="config-trigger" class="config-trigger text-center" href="#"><i class="fas fa-cog mx-auto" data-fa-transform="down-6" ></i></a> -->
-					<!-- <h5 class="panel-title">Choose Colour</h5> -->
-					<!-- <ul id="color-options" class="list-inline mb-0"> -->
-						<!-- <li class="theme-1 active list-inline-item"><a data-style="assets/css/theme-1.css" href="#"></a></li> -->
-						<!-- <li class="theme-2  list-inline-item"><a data-style="assets/css/theme-2.css" href="#"></a></li> -->
-						<!-- <li class="theme-3  list-inline-item"><a data-style="assets/css/theme-3.css" href="#"></a></li> -->
-						<!-- <li class="theme-4  list-inline-item"><a data-style="assets/css/theme-4.css" href="#"></a></li> -->
-						<!-- <li class="theme-5  list-inline-item"><a data-style="assets/css/theme-5.css" href="#"></a></li> -->
-						<!-- <li class="theme-6  list-inline-item"><a data-style="assets/css/theme-6.css" href="#"></a></li> -->
-						<!-- <li class="theme-7  list-inline-item"><a data-style="assets/css/theme-7.css" href="#"></a></li> -->
-						<!-- <li class="theme-8  list-inline-item"><a data-style="assets/css/theme-8.css" href="#"></a></li> -->
-						<!-- <li class="theme-9  list-inline-item"><a data-style="assets/css/theme-9.css" href="#"></a></li> -->
-						<!-- <li class="theme-10  list-inline-item"><a data-style="assets/css/theme-10.css" href="#"></a></li> -->
-					<!-- </ul> -->
-					<!-- <a id="config-close" class="close" href="#"><i class="fa fa-times-circle"></i></a> -->
-				<!-- </div><!--//panel-inner--> -->
-			<!-- </div><!--//configure-panel--> -->
-		<footer class="footer text-center py-4">
-			<small class="copyright">Copyright &copy; Kiran</a></small>
-		</footer>
-			<!-- Javascript -->          
-			<script src="assets/plugins/popper.min.js"></script> 
-			<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-			
-			<!-- Dark Mode -->
-			<script src="assets/plugins/js-cookie.min.js"></script>
-			<script src="assets/js/dark-mode.js"></script>
+                <div class="item mb-3">
+                    <div class="item-heading row align-items-center mb-2">
+                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Asst Manager-BI Developer</h4>
+                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Philips GBS | Jun 2018 - Nov 2020</div>
+                    </div>
+                    <div class="item-content">
+                        <ul class="resume-list">
+                            <li>Headed Power BI report development for Inventory report from scratch</li>
+                            <li>Created multiple business solution for markets using tools like PowerApps and Power Automate</li>
+                            <li>Worked with subject matter experts to translate business requirements into highly scalable Power BI solutions</li>
+                            <li>Responsible for Administrative activities on Power BI Premium Capacity</li>
+                            <li>Created scalable and reliable backup solutions to maintain report quality</li>
+                            <li>Worked on SSIS to create multiple ETL projects</li>
+                        </ul>
+                    </div>
+                </div>
 
-			<!-- Style Switcher (REMOVE ON YOUR PRODUCTION SITE) -->
-			<script src="assets/js/demo/style-switcher.js"></script>     
-			
-
-		</body>
-		</html> 
-
+                <div class="item mb-3">
+                    <div class="item-heading row align-items-center mb-2">
+                        <h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Software Developer</h4>
+                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Encore IT | Sep 2015 - May 2018</div>
+                    </div>
+                    <div class="item-content">
+                        <ul class="resume-list">
+                            <li>Worked on SSRS to Power BI migration project for a Healthcare provider</li>
+                            <li>Gained experience on SSIS and Power BI</li>
+                            <li>Worked on JavaScript analytics for customer engagement projects</li>
+                        </ul>
+                    </div>
+                </div>
+                        
+                        <aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+                            <section class="education-section py-3">
+                                <h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
+                                <ul class="list-unstyled resume-education-list">
+                                    <li class="mb-3">
+                                        <div class="resume-degree font-weight-bold">Post Graduate Programme in Fintech</div>
+                                        <div class="resume-degree-org text-muted">Indian Institute of Management Nagpur</div>
+                                        <div class="resume-degree-time text-muted">2022 - 2023</div>
+                                    </li>
+                                    <li>
+                                        <div class="resume-degree font-weight-bold">Bachelor of Technology in Information Technology</div>
+                                        <div class="resume-degree-org text-muted">Jeppiaar Engineering College</div>
+                                        <div class="resume-degree-time text-muted">2011 - 2015</div>
+                                    </li>
+                                </ul>
+                            </section>
+                            
+                            <section class="skills-section py-3">
+                                <h3 class="text-uppercase resume-section-heading mb-4">Skills</h3>
+                                <ul class="list-unstyled resume-skills-list">
+                                    <li class="mb-2">Power BI</li>
+                                    <li class="mb-2">Microsoft Fabric</li>
+                                    <li class="mb-2">Alteryx</li>
+                                    <li class="mb-2">Azure</li>
+                                    <li class="mb-2">UiPath</li>
+                                    <li class="mb-2">Paginated report</li>
+                                    <li class="mb-2">SQL</li>
+                                    <li class="mb-2">Power Automate</li>
+                                    <li class="mb-2">Power Apps</li>
+                                    <li class="mb-2">Tabular Editor</li>
+                                </ul>
